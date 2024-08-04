@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeroSectionComponent {
 
+  name: string = "Nayera Hazem";
+  title: string = "Front-End Developer";
+
 }
