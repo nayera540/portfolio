@@ -1,0 +1,91 @@
+.hero__section {
+  background: linear-gradient(#7857ff, #2e2be9);
+  height: 450px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  padding-left: 200px;
+}
+
+.title h1 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.title h3 {
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.title h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing-h1 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.title h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  opacity: 0;
+  animation:
+    typing-h3 3.5s steps(40, end) 3.5s,
+    blink-caret .75s step-end infinite 3.5s,
+    fade-in 0.5s forwards 3.5s;
+}
+
+@keyframes typing-h1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-h3 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 600px;
+}
