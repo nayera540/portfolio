@@ -1,1 +1,6 @@
-<p>skill-item works!</p>
+<div class="skill">
+  <span class="title"><i [ngClass] = "iconClass"></i>{{title}}</span>
+  <div class="progress">
+    <div class="progress-bar" [ngStyle]="{ width: percentage + '%' }"></div>
+  </div>
+</div>
