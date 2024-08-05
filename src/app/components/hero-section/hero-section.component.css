@@ -30,55 +30,8 @@
   font-optical-sizing: auto;
   font-weight: normal;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 6px;
 }
-
-.title h1 {
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  animation:
-    typing-h1 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-.title h3 {
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  opacity: 0;
-  animation:
-    typing-h3 3.5s steps(40, end) 3.5s,
-    blink-caret .75s step-end infinite 3.5s,
-    fade-in 0.5s forwards 3.5s;
-}
-
-@keyframes typing-h1 {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-h3 {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes fade-in {
-  to {
-    opacity: 1;
-  }
-}
-
 
 .image-container {
   display: flex;

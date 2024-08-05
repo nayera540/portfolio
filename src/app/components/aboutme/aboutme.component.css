@@ -1,2 +1,58 @@
 /* font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto; */
+
+.about__section {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  color: #303b5a;
+  margin: 90px 0 120px 90px;
+  /* Adjust as needed */
+  height: auto;
+  /* Set to auto to fit content */
+  padding-top: 50px;
+  box-sizing: border-box;
+  width: 100rem;
+  /* Include padding and border in element's total width and height */
+}
+
+.about__content {
+  padding-top: 5px;
+  box-sizing: border-box;
+  /* Ensure padding does not affect width */
+}
+
+
+.about__header {
+  text-align: center;
+}
+
+.about__header h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px #b8bfd1;
+
+}
+
+.about__content p {
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
+  line-height: 2.2rem;
+}
+
+.about__content button{
+  border: none;
+  background: none;
+  outline: none;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #303b5a;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.about__content button:hover{
+  background: linear-gradient(#7857ff, #2e2be9);
+  cursor: pointer;
+}
