@@ -2,6 +2,8 @@
   background-color: #7876f3ed;
   color: #fff;
   padding: 2rem;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .skills__summary {

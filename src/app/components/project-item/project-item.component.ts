@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-project-item',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './project-item.component.html',
   styleUrl: './project-item.component.css'
 })
 export class ProjectItemComponent {
-
+  @Input() title: string = '';
+  @Input() background: string = '';
 }
